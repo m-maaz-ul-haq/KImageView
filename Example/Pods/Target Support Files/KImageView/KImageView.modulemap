@@ -1,0 +1,6 @@
+framework module KImageView {
+  umbrella header "KImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

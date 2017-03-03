@@ -2,7 +2,10 @@ use_frameworks!
 
 target 'KImageView_Example' do
   pod 'KImageView', :path => '../'
-
+  pod 'Alamofire'
+  pod 'AlamofireImage'
+  
+  
   target 'KImageView_Tests' do
     inherit! :search_paths
 
