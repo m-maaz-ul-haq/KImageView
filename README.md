@@ -31,7 +31,7 @@ Declare an UIImageView IBOutlet
 
 @IBOutlet weak var imageView: UIImageView!
 
-self.imageView.imageFromURL(url: "http://www.cartoon-clipart.co/amp/images/scooby-doo.png", indicatorColor: .gray, errorImage: UIImage(named: "replaceWithErrorImage")!, imageView: self.imageView)
+self.imageView.imageFromURL(url: "http://www.cartoon-clipart.co/amp/images/scooby-doo.png", indicatorColor: .gray, errorImage: UIImage(named: "replaceWithErrorImage")!)
 
 ```
 That's it.

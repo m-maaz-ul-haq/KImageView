@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KImageView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'KImageView loads images from server URL asynchronously to UIImageView.'
 
 # This description is used to generate tags and improve search results.
