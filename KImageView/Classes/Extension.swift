@@ -21,7 +21,6 @@ extension UIImageView {
     /// - parameter errorImage:                 The errorImage is used when image is not succuesscfully loaded.
     
     public func ImageFromURL(url: String, indicatorColor: UIColor, errorImage: UIImage) {
-        
         print("KImageView - UIImage - Loading image from: \(url)")
         
         let WH = self.frame.size.width / 2
