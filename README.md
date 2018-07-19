@@ -1,6 +1,6 @@
 # KImageView
 
-[![CI Status](http://img.shields.io/travis/m.maazulhaq@yahoo.com/KImageView.svg?style=flat)](https://travis-ci.org/m.maazulhaq@yahoo.com/KImageView)
+[![CI Status](http://img.shields.io/travis/m.maazulhaq@yahoo.com/KImageView.svg?style=flat)](https://travis-ci.org/m-maaz-ul-haq/KImageView)
 [![Version](https://img.shields.io/cocoapods/v/KImageView.svg?style=flat)](http://cocoapods.org/pods/KImageView)
 [![License](https://img.shields.io/cocoapods/l/KImageView.svg?style=flat)](http://cocoapods.org/pods/KImageView)
 [![Platform](https://img.shields.io/cocoapods/p/KImageView.svg?style=flat)](http://cocoapods.org/pods/KImageView)
@@ -27,7 +27,7 @@ Declare an UIImageView IBOutlet
 
 @IBOutlet weak var imageView: UIImageView!
 
-self.imageView.ImageFromURL(url: "http://www.cartoon-clipart.co/amp/images/scooby-doo.png", indicatorColor: .gray, errorImage: UIImage(named: "replaceWithErrorImage")!, imageView: self.imageView)
+self.imageView.imageFromURL(url: "http://www.cartoon-clipart.co/amp/images/scooby-doo.png", indicatorColor: .gray, errorImage: UIImage(named: "replaceWithErrorImage")!)
 
 ```
 That's it.
