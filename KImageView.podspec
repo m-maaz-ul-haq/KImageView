@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KImageView'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'KImageView loads images from server URL asynchronously to UIImageView.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Muhammad Maaz Ul Haq' => 'mailto:m.maazulhaq@kinfross.com' }
   s.source           = { :git => 'https://github.com/m-maaz-ul-haq/KImageView.git', :tag => s.version.to_s }
-  s.swift_version = '3.3'
+  s.swift_version = '>= 3.3, <= 4.0'
   s.social_media_url = 'https://www.facebook.com/m.maazulhaq'
 
   s.ios.deployment_target = '8.0'
