@@ -1,25 +1,16 @@
 PODS:
-  - Alamofire (4.4.0)
-  - AlamofireImage (3.2.0):
-    - Alamofire (~> 4.1)
-  - KImageView (0.1.0):
-    - Alamofire
-    - AlamofireImage
+  - KImageView (0.1.7)
 
 DEPENDENCIES:
-  - Alamofire
-  - AlamofireImage
   - KImageView (from `../`)
 
 EXTERNAL SOURCES:
   KImageView:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
-  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
-  KImageView: 0418cac86e45f1199112d7dcf21f253fb4f5eb68
+  KImageView: 9e86038a6d6bb9b8a57cf2e40467864757aff10f
 
-PODFILE CHECKSUM: 010dadfb22dd3cfe6eabb8c504ee0bba0b2d27b3
+PODFILE CHECKSUM: 5497967ffaf73bdb23119dac61429ec94c368ec0
 
-COCOAPODS: 1.2.0.beta.3
+COCOAPODS: 1.7.0.beta.3

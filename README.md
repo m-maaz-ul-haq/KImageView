@@ -27,16 +27,10 @@ Declare an UIImageView IBOutlet
 
 @IBOutlet weak var imageView: UIImageView!
 
-self.imageView.imageFromURL(url: "http://www.cartoon-clipart.co/amp/images/scooby-doo.png", indicatorColor: .gray, errorImage: UIImage(named: "replaceWithErrorImage")!)
+self.imageView.image(from: "http://www.cartoon-clipart.co/amp/images/scooby-doo.png", errorImage: UIImage(named: "replaceWithErrorImage")
 
 ```
 That's it.
-
-
-## Built With
-
-* [Alamofire](https://github.com/Alamofire/Alamofire/) - Alamofire is an HTTP networking library written in Swift.
-* [AlamofireImage](https://github.com/Alamofire/AlamofireImage/) - AlamofireImage is an image component library for Alamofire.
 
 ## Author
 * **[Muhammad Maaz Ul Haq](mailto:m.maazulhaq@kinfross.com)**
