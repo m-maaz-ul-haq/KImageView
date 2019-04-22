@@ -20,11 +20,10 @@ Pod::Spec.new do |s|
   s.description      = 'KImageView is a simple extension to the UIImageView to load images from URL asynchronously.'
 
   s.homepage         = 'https://github.com/m-maaz-ul-haq/KImageView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Muhammad Maaz Ul Haq' => 'mailto:m.maazulhaq@kinfross.com' }
-  s.source           = { :git => 'https://github.com/m-maaz-ul-haq/KImageView.git', :tag => 'v0.1.6'}
-  s.swift_version = '>= 3.3, <= 4.0'
+  s.source           = { :git => 'https://github.com/m-maaz-ul-haq/KImageView.git', :tag => s.version.to_s}
+  s.swift_version = '4.0'
   s.social_media_url = 'https://www.facebook.com/m.maazulhaq'
 
   s.ios.deployment_target = '8.0'
