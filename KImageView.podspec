@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Muhammad Maaz Ul Haq' => 'mailto:m.maazulhaq@kinfross.com' }
-  s.source           = { :git => 'https://github.com/m-maaz-ul-haq/KImageView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/m-maaz-ul-haq/KImageView.git', :tag => 'v0.1.5'}
   s.swift_version = '>= 3.3, <= 4.0'
   s.social_media_url = 'https://www.facebook.com/m.maazulhaq'
 
@@ -31,12 +31,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'KImageView/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'KImageView' => ['KImageView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Alamofire'
   s.dependency 'AlamofireImage'
 end
