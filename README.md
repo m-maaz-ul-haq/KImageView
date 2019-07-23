@@ -7,6 +7,8 @@
 
 KImageView is a simple extension to the UIImageView to load images from URL asynchronously.
 
+![](anim.gif)
+
 ## Installation
 
 KImageView is available through [CocoaPods](http://cocoapods.org). To install
